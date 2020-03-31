@@ -27,7 +27,7 @@ export class PlayerDetailComponent implements OnInit {
         this.player = player;
         this.fillForm();
       });
-    })
+    });
   }
 
   fillForm() {
